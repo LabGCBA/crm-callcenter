@@ -1,0 +1,149 @@
+td {
+    white-space: nowrap;
+}
+
+label, .sorting, .sorting_asc, .sorting_desc {
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[type=search] {
+    width: 300px !important;
+    margin-right: 5px;
+}
+
+header + .container {
+    padding-bottom: 40px;
+}
+
+#grid_filter input {
+    margin-right: 0px;
+}
+
+table.dataTable,
+table.dataTable td,
+table.dataTable th {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.table {
+    overflow: hidden;
+}
+
+.table.col-md-12, .panel.col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pagination {
+    padding-top: 10px;
+}
+
+.tab-content {
+    margin-top: 15px;
+}
+
+.tab-pane {
+    width: 60%;
+    float: none;
+    margin: 0 auto;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.buttons .btn {
+    display: block;
+}
+
+.buttons .btn:first-of-type {
+    margin-bottom: 5px;
+}
+
+.datepicker.dropdown-menu{
+    width: inherit; 
+}
+
+.datepicker table tr td span.active.active, .datepicker table tr td.active:active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active {
+    background-color: #aaa;
+    border-color: #aaa;
+}
+
+.datepicker table tr td span.active.active:hover, .datepicker table tr td span.active:hover.active:hover, 
+.datepicker table tr td.active:active:hover, .datepicker table tr td.active.highlighted:active:hover, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.highlighted.active:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.datepicker .week.active td, .datepicker .week.active .day.active, .datepicker .range {
+    background-color: #aaa;
+    border-color: #aaa;
+}
+
+.datepicker .week.active:hover *, .datepicker td.range-start:hover, .datepicker td.range-end:hover {
+    background-color: #333 !important;
+    border-color: #333 !important;
+}
+
+.datepicker td.range-start, .datepicker td.range-end {
+    background-color: #aaa !important;
+    border-color: #aaa !important;
+}
+
+.datepicker .week td {
+    border-radius: 0px;
+}
+
+.datepicker .week td:first-of-type, .datepicker table tr td.range:first-of-type {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.datepicker .week td:last-of-type, .datepicker table tr td.range:last-of-type {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.datepicker table tr td.range-start {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.datepicker table tr td.range-end {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.datepicker table tr td.range-start.range-end {
+    border-radius: 4px;
+}
+
+.input-daterange input {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+}
+
+.stat {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.stat-label {
+    margin-left: 7px;
+}
+
+.llamadas-concretadas {
+    margin-left: 20px;
+}
+
+.pagination > li > a {
+    color: #666;
+}
+
+.no-outline {
+    outline: none;
+}

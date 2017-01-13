@@ -1,0 +1,101 @@
+textarea {
+    resize: none;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+form .datepicker.dropdown-menu{
+    width: inherit; 
+}
+
+form .datepicker table tr td.active:active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active {
+    background-color: #aaa;
+    border-color: #aaa;
+}
+
+form .datepicker table tr td.active:active:hover, .datepicker table tr td.active.highlighted:active:hover, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.highlighted.active:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+form .bootstrap-timepicker-widget.dropdown-menu{
+    width: inherit; 
+}
+
+form .date .input-group-addon i {
+    width: 16px;
+}
+
+form .control-label {
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 7px;
+}
+
+form .contenedor-inferior.slideUp {
+     padding-top: 0px;
+}
+
+form .contenedor-inferior.slideDown {
+     padding-top: 0px;
+}
+     
+form .dropdown-toggle, .dropdown-menu {
+    width: 100%;
+}
+
+form .temas-conversacion {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+form .temas-informe {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+form .texto-informe textarea {
+    margin-top: 10px;
+}
+
+#success {
+    display: none;
+}
+
+#enviar {
+    padding-top: 10px;
+}
+
+form .slideUp {
+  -webkit-transition: max-height 500ms ease;
+  -moz-transition: max-height 500ms ease;
+  -o-transition: max-height 500ms ease;
+  transition: max-height 500ms ease;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  -o-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  overflow: hidden;
+  max-height: 0px;
+}
+
+form .slideDown {
+  -webkit-transition: max-height 500ms ease;
+  -moz-transition: max-height 500ms ease;
+  -o-transition: max-height 500ms ease;
+  transition: max-height 500ms ease;
+  -webkit-transform-origin: top;
+  -moz-transform-origin: top;
+  -o-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  max-height: 2000px;
+}
